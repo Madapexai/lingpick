@@ -1,31 +1,32 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fmadapexai.com&label=LingPick&color=%234F46E5)](https://madapexai.com)
-[![Bahasa](https://img.shields.io/badge/Bahasa-12-4F46E5)](./README.md)
+[![Languages](https://img.shields.io/badge/Bahasa-12-4F46E5)](./README.md)
 [![Discussions](https://img.shields.io/github/discussions/Madapexai/lingpick?color=%234F46E5)](https://github.com/Madapexai/lingpick/discussions)
 
-<p align="center">
-  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=a+minimalist+flat+logo+for+LingPick%2C+an+AI+tool+decision+engine%2C+features+a+stylized+magnifying+glass+intersecting+with+circuit+patterns%2C+purple+and+blue+gradient%2C+clean+modern+design%2C+no+text&image_size=square" alt="LingPick" width="120" />
-</p>
+# LingPick
 
-<h1 align="center">LingPick — Mesin Keputusan Alat AI</h1>
-<p align="center">
-  <strong>Mesin Keputusan Alat AI</strong><br>
-  Temukan alat AI yang benar-benar berguna dan terjangkau.
-</p>
+<img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=a+minimalist+flat+logo+for+LingPick%2C+an+AI+tool+decision+engine%2C+features+a+stylized+magnifying+glass+intersecting+with+circuit+patterns%2C+purple+and+blue+gradient%2C+clean+modern+design%2C+no+text&image_size=square" alt="LingPick" align="right" width="15%"/>
 
-<p align="center">
-  <a href="https://madapexai.com">Situs Web</a> ·
-  <a href="#-fitur">Fitur</a> ·
-  <a href="#-mulai-cepat">Penggunaan</a> ·
-  <a href="#-arsitektur">Arsitektur</a> ·
-  <a href="https://github.com/Madapexai/lingpick/discussions">Diskusi</a>
-</p>
+**Mesin Pengambil Keputusan Alat AI** — Berhenti membayar terlalu mahal untuk alat AI. Temukan yang termurah yang benar-benar berfungsi.
+
+> **Masalah:** 50 tab browser, 3 lembar perbandingan, 2 jam — hanya untuk mencari pembuat video yang tidak seharga $30/bulan.
+
+> **Solusi Kami:** Ketik apa yang ingin Anda lakukan. Dapatkan 3 rekomendasi terurut dalam 30 detik. Selesai.
+
+```
+Anda: "buat video penjelasan"
+LingPick: → Video Podcast Maker (Gratis)
+          → Hailuo AI Video ($4.99/bulan)
+          → CogVideoX 2.0 (Open Source)
+```
+
+→ Kunjungi **[madapexai.com](https://madapexai.com)** untuk mencobanya sendiri.
 
 ---
 
-## 📖 Bahasa
+## 🌐 Bahasa
 
-| Language | File |
-|----------|------|
+| Language | Berkas |
+|----------|--------|
 | English | [README.md](./README.md) |
 | 简体中文 | [README.zh-CN.md](./README.zh-CN.md) |
 | Français | [README.fr-FR.md](./README.fr-FR.md) |
@@ -41,97 +42,102 @@
 
 ---
 
-## 🎯 Apa itu LingPick?
-
-LingPick adalah **platform penemuan alat berbasis AI** yang membantu Anda menemukan alat AI terbaik dengan biaya terendah. Kami telah mengindeks **14.000+ alat AI** dan **400+ model AI** — tidak perlu lagi membandingkan semuanya sendiri.
-
-> **Masalah:** 50 tab browser, 3 tabel perbandingan, 2 jam terbuang — hanya untuk mencari generator video di bawah $30/bulan.
-
-> **Solusi:** Beri tahu kami apa yang ingin Anda lakukan. Dapatkan 3 rekomendasi yang diurutkan berdasarkan biaya dalam 30 detik.
-
-```
-Anda: "Buat video pengenalan produk"
-LingPick: → Video Podcast Maker (Gratis)
-          → Hailuo AI Video ($4.99/bulan)
-          → CogVideoX 2.0 (Open Source)
-```
-
 ## ✨ Fitur
 
 | Fitur | Deskripsi |
-|------|------|
-| 🔍 **Pencarian Cerdas** | Pencarian semantik multibahasa (CN/EN/JP), mencakup 14.000+ alat |
-| ⚡ **Pencocokan Cepat** | Jawab 5 pertanyaan → 3 rekomendasi tepat, diurutkan berdasarkan biaya, relevansi & kecepatan |
-| 📖 **Katalog Lengkap** | Jelajahi berdasarkan kategori: Video, Gambar, Pemrograman, Penulisan, Musik, Agent, CLI, MCP |
-| 💸 **Perbandingan Harga Model** | Perbandingan harga untuk 400+ model AI (GPT-4, Claude, Gemini, Llama, DeepSeek, dll.) |
-| 🎯 **Solusi Skenario** | Alur kerja nyata dari Reddit, Zhihu, Hacker News, dengan analisis biaya |
-| 🤖 **Asisten LingBot** | Rekomendasi alat AI percakapan, dipicu oleh 25 kata kunci |
-| 🌏 **12 Bahasa** | English / 中文 / Français / 日本語 / 한국어 / Tiếng Việt / Deutsch / Русский / العربية / हिन्दी / Indonesia / 繁體中文 |
-| 🔄 **Data Real-time** | Penyegaran latar belakang setiap 10 menit, cache tiga tingkat |
+|-------|-----------|
+| 🔍 Pencarian Cerdas | Pencarian semantik multibahasa di 14.000+ alat (Tionghoa, Inggris, Jepang, dan lainnya) |
+| ⚡ Pencocokan Cepat | Jawab 5 pertanyaan → 3 rekomendasi personal diurutkan berdasarkan biaya, kecocokan, dan kecepatan |
+| 📖 Katalog Lengkap | Jelajahi berdasarkan kategori: Video, Gambar, Kode, Menulis, Musik, Agent, CLI, MCP |
+| 💸 Harga Model | Bandingkan harga 400+ model AI secara berdampingan (GPT-4, Claude, Gemini, Llama, DeepSeek…) |
+| 🎯 Solusi Skenario | Alur kerja terkurasi dari Reddit, Zhihu, Hacker News — dengan analisis biaya dan efek |
+| 🤖 LingBot | Chatbot AI yang merekomendasikan alat berdasarkan kebutuhan Anda. 25 kata kunci pemicu |
+| 🌏 12 Bahasa | English, 中文, Français, 日本語, 한국어, Tiếng Việt, Deutsch, Русский, العربية, हिन्दी, Indonesia, 繁體中文 |
+| 🔄 Data Langsung | Penyegaran latar belakang setiap 10 menit, cache tiga tingkat (HOT/WARM/COLD) |
 
-## 📊 Angka-angka
+## 📊 Dalam Angka
 
 | Metrik | Jumlah |
-|------|------|
-| 🛠️ Alat AI Terdaftar | **14.475** |
-| 🔎 Alat Dapat Dicari | **4.168** |
-| 🧠 Model AI Dilacak | **418** |
-| 🏢 Vendor Dipantau | **46** |
-| 💰 Harga Input Model Terendah | **$0 / juta token** |
+|--------|--------|
+| 🛠️ Alat AI terindeks | **14.475** |
+| 🔎 Alat yang dapat dicari | **4.168** |
+| 🧠 Model AI dilacak | **418** |
+| 🏢 Vendor dipantau | **46** |
+| 💬 Chatbot terdaftar | **30** |
+| ⌨️ Code Agent terdaftar | **32** |
+| 💰 Harga input model termurah | **$0 / 1M token** |
+| 🆓 Alat dengan paket gratis | **91,6%** |
 
 ## 🚀 Mulai Cepat
 
-1. Buka **[madapexai.com](https://madapexai.com)**
+1. Kunjungi **[madapexai.com](https://madapexai.com)**
 2. Ketik apa yang ingin Anda lakukan di kotak pencarian
 3. Dapatkan hasil secara instan
 
 ### Contoh Pencarian
 
-| Anda ketik | LingPick menemukan |
-|--------|-------------|
-| "做视频" | Alat video AI, pembuatan video AIGC, CogVideoX |
-| "写代码" | 天工智码 Skycode, 码上飞, Kimi K3 for Coding |
+| Anda mengetik | LingPick menemukan |
+|---------------|-------------------|
+| "做视频" | Alat Video AI, Pembuat Video AIGC, CogVideoX |
+| "写代码" | SkyCode, CodeFly, Kimi K3 for Coding |
 | "做PPT" | Dashi PPT, McKinsey PPT Design |
-| "AI绘画" | 创客贴 AI 画匠, 秒绘 AI, 绘蛙 AI |
-| "数据分析" | Perangkat analisis data penelitian |
+| "AI绘画" | Pelukis AI, Miaohui AI, Huiwa AI |
+| "数据分析" | Alat Analisis Data Penelitian |
 | "make video" | Video Podcast Maker, Hailuo AI Video |
 | "coding" | cli-llm-coding, Live Coding in Forth |
 
 ### Kata Kunci Pemicu LingBot
 
-Ketik salah satu kata kunci berikut untuk mengaktifkan asisten AI secara otomatis:
-`客服` `人工客服` `help` `support` `联系客服` `售后` `技术支持` `帮助` `求助` `反馈` `投诉` `complaint`
+`客服` `help` `support` `contact` `customer service` `售后` `技术支持` `帮助` `反馈` `complaint`
 
 ## 🏗️ Arsitektur
 
-| Lapisan | Tumpukan Teknologi |
-|------|--------|
+```
+┌─────────────────────────────────────────────┐
+│                  Vercel CDN                   │
+│           (React + Vite SPA)                  │
+├─────────────────────────────────────────────┤
+│  i18next (12 bahasa)  │  Fuse.js Hibrida    │
+├─────────────────────────────────────────────┤
+│              Gateway REST API                 │
+│          (Express + PostgreSQL)                │
+├──────────┬──────────┬──────────┬─────────────┤
+│  Pencarian │  Katalog  │  Statistik │  LingBot  │
+│  /agent   │  /models  │  /stats  │  /chat      │
+├──────────┴──────────┴──────────┴─────────────┤
+│     Cache 3 Tingkat (HOT/WARM/COLD)         │
+│   Penyegaran Latar (siklus 10 menit)        │
+└─────────────────────────────────────────────┘
+```
+
+| Lapisan | Stack Teknologi |
+|---------|-----------------|
 | **Frontend** | React 18, Vite, TypeScript, i18next, Tailwind CSS |
-| **Pencarian** | Fuse.js (pencarian hibrida kata kunci + vektor, ambang 0.35, pembobotan merek) |
+| **Pencarian** | Fuse.js (hibrida kata kunci + vektor, ambang 0.35, peningkatan merek) |
 | **Backend** | Node.js, Express, PostgreSQL, PM2 |
-| **Cache** | Cache tiga tingkat (HOT 5 menit / WARM 1 jam / COLD 24 jam) + penyegaran latar belakang |
-| **CI/CD** | GitHub Actions → Vercel (Frontend) + Contabo PM2 (Backend) |
-| **Internasionalisasi** | File terjemahan 12 bahasa, fallback en-US, html[lang] dinamis |
+| **Cache** | HOT (5 menit) / WARM (1 jam) / COLD (24 jam), penyegaran latar senyap |
+| **CI/CD** | GitHub Actions → Vercel (frontend) + Contabo PM2 (backend) |
+| **I18n** | 12 berkas terjemahan, fallback en-US, html[lang] dinamis |
 
 ## 🤝 Berkontribusi
 
-- 📞 **[Usulkan Alat](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — Ada alat bagus yang terlewat? Beri tahu kami.
-- 🐛 **[Laporkan Bug](https://github.com/Madapexai/lingpick/discussions/categories/general)** — Menemukan masalah? Beri tahu kami.
-- 💡 **[Usulkan Fitur](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — Punya ide untuk membuat LingPick lebih baik?
-- 🌍 **[Perbaiki Terjemahan](https://github.com/Madapexai/lingpick/discussions/categories/general)** — Bantu kami menyempurnakan versi bahasa Anda.
+- 📞 **[Sarankan alat](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — Tahu alat AI hebat yang kami lewatkan? Beri tahu kami.
+- 🐛 **[Laporkan bug](https://github.com/Madapexai/lingpick/discussions/categories/general)** — Menemukan sesuatu yang rusak? Beri tahu kami.
+- 💡 **[Usulkan fitur](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — Punya ide untuk membuat LingPick lebih baik?
+- 🌍 **[Tingkatkan terjemahan](https://github.com/Madapexai/lingpick/discussions/categories/general)** — Bantu kami melokalkan ke bahasa Anda.
 
 ## 🗣️ Komunitas
 
 | Saluran | Tautan |
-|------|------|
-| 💬 Discussions | [Papan Diskusi](https://github.com/Madapexai/lingpick/discussions) |
+|---------|--------|
+| 💬 Diskusi | [github.com/Madapexai/lingpick/discussions](https://github.com/Madapexai/lingpick/discussions) |
 | 🌐 Situs Web | [madapexai.com](https://madapexai.com) |
 | 📧 Email | contact@madapexai.com |
 
 ## 📄 Lisensi
 
-Lisensi MIT — lihat file [LICENSE](./LICENSE) untuk detailnya.
+Repositori ini hanya untuk dokumentasi dan diskusi komunitas. Kode sumber LingPick adalah proprietary.
 
 ---
 
-<p align="center">Made with 💚 for AI users everywhere</p>
+*Made with 💚 for AI users everywhere*

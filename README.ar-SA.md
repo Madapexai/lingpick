@@ -1,31 +1,34 @@
+<div dir="rtl">
+
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fmadapexai.com&label=LingPick&color=%234F46E5)](https://madapexai.com)
 [![Languages](https://img.shields.io/badge/اللغات-12-4F46E5)](./README.md)
 [![Discussions](https://img.shields.io/github/discussions/Madapexai/lingpick?color=%234F46E5)](https://github.com/Madapexai/lingpick/discussions)
 
-<p align="center">
-  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=a+minimalist+flat+logo+for+LingPick%2C+an+AI+tool+decision+engine%2C+features+a+stylized+magnifying+glass+intersecting+with+circuit+patterns%2C+purple+and+blue+gradient%2C+clean+modern+design%2C+no+text&image_size=square" alt="LingPick" width="120" />
-</p>
+# LingPick
 
-<h1 align="center">LingPick — محرك اختيار أدوات الذكاء الاصطناعي</h1>
-<p align="center">
-  <strong>محرك اختيار أدوات الذكاء الاصطناعي</strong><br>
-  اعثر على أدوات ذكاء اصطناعي مفيدة حقًا وبأسعار معقولة.
-</p>
+<img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=a+minimalist+flat+logo+for+LingPick%2C+an+AI+tool+decision+engine%2C+features+a+stylized+magnifying+glass+intersecting+with+circuit+patterns%2C+purple+and+blue+gradient%2C+clean+modern+design%2C+no+text&image_size=square" alt="LingPick" align="left" width="15%"/>
 
-<p align="center">
-  <a href="https://madapexai.com">الموقع</a> ·
-  <a href="#-الميزات">الميزات</a> ·
-  <a href="#-بداية-سريعة">الاستخدام</a> ·
-  <a href="#-الهندسة">الهندسة</a> ·
-  <a href="https://github.com/Madapexai/lingpick/discussions">المناقشات</a>
-</p>
+**محرك اختيار أدوات الذكاء الاصطناعي** — توقف عن دفع مبالغ زائدة لأدوات الذكاء الاصطناعي. اعثر على الأرخص الذي يعمل حقًا.
+
+> **المشكلة:** 50 علامة تبويب في المتصفح، و3 جداول مقارنة، وساعتان من البحث — فقط للعثور على مولد فيديو لا يكلف 30 دولارًا شهريًا.
+
+> **حلنا:** اكتب ما تريد فعله. احصل على 3 توصيات مُرتّبة في 30 ثانية. انتهى الأمر.
+
+```
+أنت: "اصنع فيديو توضيحي"
+LingPick: → Video Podcast Maker (مجاني)
+          → Hailuo AI Video (4.99 دولار/شهر)
+          → CogVideoX 2.0 (مفتوح المصدر)
+```
+
+→ اذهب إلى **[madapexai.com](https://madapexai.com)** لتجربته بنفسك.
 
 ---
 
-## 📖 اللغات
+## 🌐 اللغات
 
-| Language | File |
-|----------|------|
+| Language | الملف |
+|----------|-------|
 | English | [README.md](./README.md) |
 | 简体中文 | [README.zh-CN.md](./README.zh-CN.md) |
 | Français | [README.fr-FR.md](./README.fr-FR.md) |
@@ -41,97 +44,104 @@
 
 ---
 
-## 🎯 ما هو LingPick؟
-
-LingPick هو **منصة اكتشاف أدوات مدعومة بالذكاء الاصطناعي** تساعدك في العثور على أفضل أدوات الذكاء الاصطناعي بأقل تكلفة. قمنا بفهرسة **أكثر من 14,000 أداة ذكاء اصطناعي** و **أكثر من 400 نموذج ذكاء اصطناعي** — لا داعي لمقارنة كل شيء بنفسك بعد الآن.
-
-> **المشكلة:** 50 علامة تبويب في المتصفح، 3 جداول مقارنة، ساعتان من الوقت — فقط للعثور على مولد فيديو بسعر أقل من 30 دولارًا شهريًا.
-
-> **الحل:** أخبرنا بما تريد القيام به. احصل على 3 توصيات مرتبة حسب التكلفة في 30 ثانية.
-
-```
-أنت: "إنشاء فيديو تعريفي عن المنتج"
-LingPick: → Video Podcast Maker (مجاني)
-          → Hailuo AI Video (4.99 دولار/شهر)
-          → CogVideoX 2.0 (مفتوح المصدر)
-```
-
 ## ✨ الميزات
 
 | الميزة | الوصف |
-|------|------|
-| 🔍 **بحث ذكي** | بحث دلالي متعدد اللغات (CN/EN/JP)، يغطي أكثر من 14,000 أداة |
-| ⚡ **مطابقة سريعة** | أجب على 5 أسئلة → 3 توصيات دقيقة، مرتبة حسب التكلفة والملاءمة والسرعة |
-| 📖 **كتالوج كامل** | تصفح حسب الفئة: فيديو، صورة، برمجة، كتابة، موسيقى، Agent، CLI، MCP |
-| 💸 **مقارنة أسعار النماذج** | مقارنة أسعار أكثر من 400 نموذج ذكاء اصطناعي (GPT-4، Claude، Gemini، Llama، DeepSeek وغيرها) |
-| 🎯 **حلول السيناريوهات** | سير عمل حقيقي مستخلص من Reddit و Zhihu و Hacker News، مع تحليل التكلفة |
-| 🤖 **مساعد LingBot** | توصية بأدوات الذكاء الاصطناعي عبر المحادثة، تُفعّل تلقائيًا بـ 25 كلمة مفتاحية |
-| 🌏 **12 لغة** | English / 中文 / Français / 日本語 / 한국어 / Tiếng Việt / Deutsch / Русский / العربية / हिन्दी / Indonesia / 繁體中文 |
-| 🔄 **بيانات آنية** | تحديث صامت في الخلفية كل 10 دقائق، ذاكرة تخزين مؤقت ثلاثية المستويات |
+|--------|-------|
+| 🔍 بحث ذكي | بحث دلالي متعدد اللغات عبر أكثر من 14,000 أداة (الصينية، الإنجليزية، اليابانية…) |
+| ⚡ مطابقة سريعة | أجب عن 5 أسئلة → 3 توصيات مخصصة مرتبة حسب التكلفة والملاءمة والسرعة |
+| 📖 كتالوج كامل | تصفح حسب الفئة: فيديو، صورة، برمجة، كتابة، موسيقى، Agent، CLI، MCP |
+| 💸 أسعار النماذج | قارن أسعار أكثر من 400 نموذج ذكاء اصطناعي (GPT-4، Claude، Gemini، Llama، DeepSeek…) |
+| 🎯 حلول السيناريوهات | سير عمل منسق من Reddit وZhihu وHacker News — مع تحليل التكلفة |
+| 🤖 LingBot | روبوت محادثة ذكي يوصي بالأدوات بناءً على احتياجاتك. 25 كلمة مفتاحية |
+| 🌏 12 لغة | English, 中文, Français, 日本語, 한국어, Tiếng Việt, Deutsch, Русский, العربية, हिन्दी, Indonesia, 繁體中文 |
+| 🔄 بيانات حية | تحديث في الخلفية كل 10 دقائق، ذاكرة تخزين مؤقت ثلاثية المستويات (HOT/WARM/COLD) |
 
 ## 📊 بالأرقام
 
 | المؤشر | العدد |
-|------|------|
-| 🛠️ أدوات الذكاء الاصطناعي المدرجة | **14,475** |
+|--------|-------|
+| 🛠️ أدوات الذكاء الاصطناعي المفهرسة | **14,475** |
 | 🔎 أدوات قابلة للبحث | **4,168** |
-| 🧠 نماذج الذكاء الاصطناعي المتتبعة | **418** |
-| 🏢 المزودون المراقبون | **46** |
-| 💰 أقل سعر إدخال للنماذج | **$0 / مليون رمز** |
+| 🧠 نماذج الذكاء الاصطناعي المُتتبعة | **418** |
+| 🏢 المزودون المُراقبون | **46** |
+| 💬 روبوتات المحادثة المُدرجة | **30** |
+| ⌨️ وكلاء البرمجة المُدرجون | **32** |
+| 💰 أرخص سعر إدخال للنموذج | **$0 / 1M رمز** |
+| 🆓 أدوات بخطة مجانية | **91.6%** |
 
-## 🚀 بداية سريعة
+## 🚀 البداية السريعة
 
-1. افتح **[madapexai.com](https://madapexai.com)**
-2. اكتب ما تريد القيام به في مربع البحث
+1. اذهب إلى **[madapexai.com](https://madapexai.com)**
+2. اكتب ما تريد فعله في مربع البحث
 3. احصل على النتائج فورًا
 
 ### أمثلة على البحث
 
-| أنت تكتب | LingPick يجد |
-|--------|-------------|
-| "做视频" | أدوات فيديو بالذكاء الاصطناعي، إنشاء فيديو AIGC، CogVideoX |
-| "写代码" | 天工智码 Skycode، 码上飞، Kimi K3 for Coding |
+| ما تكتبه | ما يجده LingPick |
+|----------|------------------|
+| "做视频" | أداة فيديو بالذكاء الاصطناعي، منشئ فيديو AIGC، CogVideoX |
+| "写代码" | SkyCode، CodeFly، Kimi K3 for Coding |
 | "做PPT" | Dashi PPT، McKinsey PPT Design |
-| "AI绘画" | 创客贴 AI 画匠، 秒绘 AI، 绘蛙 AI |
-| "数据分析" | مجموعة أدوات تحليل البيانات البحثية |
+| "AI绘画" | رسام ذكاء اصطناعي، Miaohui AI، Huiwa AI |
+| "数据分析" | أدوات تحليل بيانات البحث |
 | "make video" | Video Podcast Maker، Hailuo AI Video |
 | "coding" | cli-llm-coding، Live Coding in Forth |
 
-### كلمات تفعيل LingBot
+### كلمات LingBot المفتاحية
 
-اكتب أيًا من هذه الكلمات المفتاحية لتفعيل مساعد الذكاء الاصطناعي تلقائيًا:
-`客服` `人工客服` `help` `support` `联系客服` `售后` `技术支持` `帮助` `求助` `反馈` `投诉` `complaint`
+`客服` `help` `support` `contact` `customer service` `售后` `技术支持` `帮助` `反馈` `complaint`
 
-## 🏗️ الهندسة
+## 🏗️ البنية التقنية
+
+```
+┌─────────────────────────────────────────────┐
+│                  Vercel CDN                   │
+│           (React + Vite SPA)                  │
+├─────────────────────────────────────────────┤
+│  i18next (12 لغة)    │  Fuse.js هجين       │
+├─────────────────────────────────────────────┤
+│              بوابة REST API                   │
+│          (Express + PostgreSQL)                │
+├──────────┬──────────┬──────────┬─────────────┤
+│   البحث   │  الكتالوج  │ الإحصائيات │  LingBot  │
+│  /agent   │  /models  │  /stats  │  /chat      │
+├──────────┴──────────┴──────────┴─────────────┤
+│  ذاكرة تخزين مؤقت ثلاثية (HOT/WARM/COLD)   │
+│    تحديث في الخلفية (دورة 10 دقائق)         │
+└─────────────────────────────────────────────┘
+```
 
 | الطبقة | مجموعة التقنيات |
-|------|--------|
+|--------|----------------|
 | **الواجهة الأمامية** | React 18، Vite، TypeScript، i18next، Tailwind CSS |
-| **البحث** | Fuse.js (بحث هجين بالكلمات المفتاحية + المتجهات، عتبة 0.35، ترجيح العلامات التجارية) |
+| **البحث** | Fuse.js (هجين: كلمات مفتاحية + متجهات، عتبة 0.35، تعزيز العلامة التجارية) |
 | **الخلفية** | Node.js، Express، PostgreSQL، PM2 |
-| **ذاكرة التخزين المؤقت** | ذاكرة تخزين ثلاثية المستويات (HOT 5 دقائق / WARM ساعة / COLD 24 ساعة) + تحديث صامت في الخلفية |
-| **CI/CD** | GitHub Actions → Vercel (الواجهة الأمامية) + Contabo PM2 (الخلفية) |
-| **التدويل** | ملفات ترجمة بـ 12 لغة، احتياطي en-US، html[lang] ديناميكي |
+| **التخزين المؤقت** | HOT (5 دقائق) / WARM (ساعة) / COLD (24 ساعة)، تحديث صامت |
+| **CI/CD** | GitHub Actions → Vercel (الواجهة) + Contabo PM2 (الخلفية) |
+| **الترجمة** | 12 ملف ترجمة، احتياطي en-US، html[lang] ديناميكي |
 
 ## 🤝 المساهمة
 
-- 📞 **[اقترح أداة](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — هل فاتتنا أداة رائعة؟ أخبرنا.
-- 🐛 **[أبلغ عن خطأ](https://github.com/Madapexai/lingpick/discussions/categories/general)** — وجدت مشكلة؟ أخبرنا عنها.
-- 💡 **[اقترح ميزة](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — لديك فكرة لجعل LingPick أفضل؟
-- 🌍 **[حسّن الترجمة](https://github.com/Madapexai/lingpick/discussions/categories/general)** — ساعدنا في تحسين نسخة لغتك.
+- 📞 **[اقترح أداة](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — هل تعرف أداة ذكاء اصطناعي رائعة نفتقدها؟ أخبرنا.
+- 🐛 **[أبلغ عن خطأ](https://github.com/Madapexai/lingpick/discussions/categories/general)** — هل وجدت مشكلة؟ أعلمنا بها.
+- 💡 **[اقترح ميزة](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — هل لديك فكرة لتحسين LingPick؟
+- 🌍 **[حسّن الترجمة](https://github.com/Madapexai/lingpick/discussions/categories/general)** — ساعدنا في التعريب إلى لغتك.
 
 ## 🗣️ المجتمع
 
 | القناة | الرابط |
-|------|------|
-| 💬 Discussions | [لوحة المناقشات](https://github.com/Madapexai/lingpick/discussions) |
+|--------|--------|
+| 💬 المناقشات | [github.com/Madapexai/lingpick/discussions](https://github.com/Madapexai/lingpick/discussions) |
 | 🌐 الموقع | [madapexai.com](https://madapexai.com) |
 | 📧 البريد الإلكتروني | contact@madapexai.com |
 
 ## 📄 الترخيص
 
-رخصة MIT — راجع ملف [LICENSE](./LICENSE) للتفاصيل.
+هذا المستودع مخصص للتوثيق ومناقشات المجتمع فقط. كود مصدر LingPick مملوك.
 
 ---
 
-<p align="center">Made with 💚 for AI users everywhere</p>
+*Made with 💚 for AI users everywhere*
+
+</div>

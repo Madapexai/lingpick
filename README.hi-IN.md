@@ -2,27 +2,28 @@
 [![Languages](https://img.shields.io/badge/Languages-12-4F46E5)](./README.md)
 [![Discussions](https://img.shields.io/github/discussions/Madapexai/lingpick?color=%234F46E5)](https://github.com/Madapexai/lingpick/discussions)
 
-<p align="center">
-  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=a+minimalist+flat+logo+for+LingPick%2C+an+AI+tool+decision+engine%2C+features+a+stylized+magnifying+glass+intersecting+with+circuit+patterns%2C+purple+and+blue+gradient%2C+clean+modern+design%2C+no+text&image_size=square" alt="LingPick" width="120" />
-</p>
+# LingPick
 
-<h1 align="center">LingPick — AI Tool Decision Engine</h1>
-<p align="center">
-  <strong>AI Tool Decision Engine</strong><br>
-  Find AI tools that actually work and are affordable.
-</p>
+<img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=a+minimalist+flat+logo+for+LingPick%2C+an+AI+tool+decision+engine%2C+features+a+stylized+magnifying+glass+intersecting+with+circuit+patterns%2C+purple+and+blue+gradient%2C+clean+modern+design%2C+no+text&image_size=square" alt="LingPick" align="right" width="15%"/>
 
-<p align="center">
-  <a href="https://madapexai.com">Website</a> ·
-  <a href="#-features">Features</a> ·
-  <a href="#-quick-start">Usage</a> ·
-  <a href="#-architecture">Architecture</a> ·
-  <a href="https://github.com/Madapexai/lingpick/discussions">Discussions</a>
-</p>
+**AI Tool Decision Engine** — Stop overpaying for AI tools. Find the cheapest one that actually works.
+
+> **The Problem:** 50 browser tabs, 3 spreadsheets, 2 hours — just to find a video generator that doesn't cost $30/month.
+
+> **Our Solution:** Type what you want to do. Get 3 ranked picks in 30 seconds. Done.
+
+```
+You: "make an explainer video"
+LingPick: → Video Podcast Maker (Free)
+          → Hailuo AI Video ($4.99/mo)
+          → CogVideoX 2.0 (Open Source)
+```
+
+→ Go to **[madapexai.com](https://madapexai.com)** to try it yourself.
 
 ---
 
-## 📖 Languages
+## 🌐 Languages
 
 | Language | File |
 |----------|------|
@@ -41,97 +42,102 @@
 
 ---
 
-## 🎯 What is LingPick?
-
-LingPick is an **AI-powered tool discovery platform** that helps you find the best AI tools at the lowest cost. We've indexed **14,000+ AI tools** and **400+ AI models** — no more comparing everything yourself.
-
-> **Problem:** 50 browser tabs, 3 comparison spreadsheets, 2 hours wasted — just to find a video generator under $30/month.
-
-> **Solution:** Tell us what you want to do. Get 3 recommendations sorted by cost in 30 seconds.
-
-```
-You: "Make a product intro video"
-LingPick: → Video Podcast Maker (Free)
-          → Hailuo AI Video ($4.99/month)
-          → CogVideoX 2.0 (Open Source)
-```
-
 ## ✨ Features
 
 | Feature | Description |
-|------|------|
-| 🔍 **Smart Search** | Multilingual semantic search (CN/EN/JP), covering 14,000+ tools |
-| ⚡ **Quick Match** | Answer 5 questions → 3 precise recommendations, sorted by cost, relevance & speed |
-| 📖 **Full Catalog** | Browse by category: Video, Image, Coding, Writing, Music, Agent, CLI, MCP |
-| 💸 **Model Price Comparison** | Cross-compare pricing for 400+ AI models (GPT-4, Claude, Gemini, Llama, DeepSeek, etc.) |
-| 🎯 **Scenario Solutions** | Real-world workflows distilled from Reddit, Zhihu, Hacker News, with cost analysis |
-| 🤖 **LingBot Assistant** | AI conversational tool recommendation, triggered by 25 keywords |
-| 🌏 **12 Languages** | English / 中文 / Français / 日本語 / 한국어 / Tiếng Việt / Deutsch / Русский / العربية / हिन्दी / Indonesia / 繁體中文 |
-| 🔄 **Real-time Data** | Silent backend refresh every 10 minutes, three-tier cache |
+|---------|-------------|
+| 🔍 Smart Search | Semantic search across 14k+ tools in Chinese, English, Japanese, and more |
+| ⚡ Quick Match | Answer 5 questions → 3 personalized picks ranked by cost, fit, and speed |
+| 📖 Full Catalog | Browse all tools by category: Video, Image, Code, Writing, Music, Agent, CLI, MCP |
+| 💸 Model Pricing | Compare 400+ AI model prices side-by-side (GPT-4, Claude, Gemini, Llama, DeepSeek...) |
+| 🎯 Scenario Solutions | Curated workflows from Reddit, Zhihu, Hacker News — with cost and effect analysis |
+| 🤖 LingBot | AI chatbot that recommends tools based on your needs. 25 trigger keywords |
+| 🌏 12 Languages | English, 中文, Français, 日本語, 한국어, Tiếng Việt, Deutsch, Русский, العربية, हिन्दी, Indonesia, 繁體中文 |
+| 🔄 Live Data | Background refresh every 10 minutes, three-tier cache (HOT/WARM/COLD) |
 
 ## 📊 By the Numbers
 
 | Metric | Count |
-|------|------|
-| 🛠️ AI Tools Listed | **14,475** |
-| 🔎 Searchable Tools | **4,168** |
-| 🧠 AI Models Tracked | **418** |
-| 🏢 Vendors Monitored | **46** |
-| 💰 Lowest Model Input Price | **$0 / million tokens** |
+|--------|-------|
+| 🛠️ AI Tools indexed | **14,475** |
+| 🔎 Searchable tools | **4,168** |
+| 🧠 AI Models tracked | **418** |
+| 🏢 Vendors monitored | **46** |
+| 💬 Chatbots listed | **30** |
+| ⌨️ Code Agents listed | **32** |
+| 💰 Cheapest model input | **$0 / 1M tokens** |
+| 🆓 Tools with free tier | **91.6%** |
 
 ## 🚀 Quick Start
 
-1. Open **[madapexai.com](https://madapexai.com)**
+1. Go to **[madapexai.com](https://madapexai.com)**
 2. Type what you want to do in the search box
 3. Get results instantly
 
 ### Search Examples
 
 | You type | LingPick finds |
-|--------|-------------|
-| "做视频" | AI video tools, AIGC video creation, CogVideoX |
-| "写代码" | 天工智码 Skycode, 码上飞, Kimi K3 for Coding |
+|----------|---------------|
+| "做视频" | AI Video Tool, AIGC Video Creator, CogVideoX |
+| "写代码" | SkyCode, CodeFly, Kimi K3 for Coding |
 | "做PPT" | Dashi PPT, McKinsey PPT Design |
-| "AI绘画" | 创客贴 AI 画匠, 秒绘 AI, 绘蛙 AI |
-| "数据分析" | Research data analysis toolset |
+| "AI绘画" | AI Painter, Miaohui AI, Huiwa AI |
+| "数据分析" | Research Data Analysis tools |
 | "make video" | Video Podcast Maker, Hailuo AI Video |
 | "coding" | cli-llm-coding, Live Coding in Forth |
 
 ### LingBot Trigger Keywords
 
-Type any of these keywords to automatically activate the AI assistant:
-`客服` `人工客服` `help` `support` `联系客服` `售后` `技术支持` `帮助` `求助` `反馈` `投诉` `complaint`
+`客服` `help` `support` `contact` `customer service` `售后` `技术支持` `帮助` `反馈` `complaint`
 
 ## 🏗️ Architecture
 
-| Layer | Technology Stack |
-|------|--------|
+```
+┌─────────────────────────────────────────────┐
+│                  Vercel CDN                   │
+│           (React + Vite SPA)                  │
+├─────────────────────────────────────────────┤
+│  i18next (12 lang)  │  Fuse.js Hybrid Search │
+├─────────────────────────────────────────────┤
+│                REST API Gateway               │
+│          (Express + PostgreSQL)                │
+├──────────┬──────────┬──────────┬─────────────┤
+│  Search   │  Catalog  │  Stats   │  LingBot    │
+│  /agent   │  /models  │  /stats  │  /chat      │
+├──────────┴──────────┴──────────┴─────────────┤
+│          3-Tier Cache (HOT/WARM/COLD)        │
+│       Background Refresh (10min cycle)       │
+└─────────────────────────────────────────────┘
+```
+
+| Layer | Tech Stack |
+|-------|------------|
 | **Frontend** | React 18, Vite, TypeScript, i18next, Tailwind CSS |
-| **Search** | Fuse.js (keyword + vector hybrid search, threshold 0.35, brand weighting) |
+| **Search** | Fuse.js (keyword + vector hybrid, threshold 0.35, brand boost) |
 | **Backend** | Node.js, Express, PostgreSQL, PM2 |
-| **Cache** | Three-tier cache (HOT 5 min / WARM 1 hr / COLD 24 hr) + background silent refresh |
-| **CI/CD** | GitHub Actions → Vercel (Frontend) + Contabo PM2 (Backend) |
-| **i18n** | 12-language translation files, en-US fallback, dynamic html[lang] |
+| **Caching** | HOT (5min) / WARM (1h) / COLD (24h), silent background refresh |
+| **CI/CD** | GitHub Actions → Vercel (frontend) + Contabo PM2 (backend) |
+| **I18n** | 12 translation files, en-US fallback, dynamic html[lang] |
 
 ## 🤝 Contributing
 
-- 📞 **[Suggest a Tool](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — Did we miss a great tool? Let us know.
-- 🐛 **[Report a Bug](https://github.com/Madapexai/lingpick/discussions/categories/general)** — Found an issue? Tell us about it.
-- 💡 **[Request a Feature](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — Have an idea to make LingPick better?
-- 🌍 **[Improve Translations](https://github.com/Madapexai/lingpick/discussions/categories/general)** — Help us perfect your language version.
+- 📞 **[Suggest a tool](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — Know a great AI tool we're missing? Tell us.
+- 🐛 **[Report a bug](https://github.com/Madapexai/lingpick/discussions/categories/general)** — Found something broken? Let us know.
+- 💡 **[Propose a feature](https://github.com/Madapexai/lingpick/discussions/categories/ideas)** — Have an idea to make LingPick better?
+- 🌍 **[Improve translations](https://github.com/Madapexai/lingpick/discussions/categories/general)** — Help us localize to your language.
 
 ## 🗣️ Community
 
 | Channel | Link |
-|------|------|
-| 💬 Discussions | [Discussion Board](https://github.com/Madapexai/lingpick/discussions) |
+|---------|------|
+| 💬 Discussions | [github.com/Madapexai/lingpick/discussions](https://github.com/Madapexai/lingpick/discussions) |
 | 🌐 Website | [madapexai.com](https://madapexai.com) |
 | 📧 Email | contact@madapexai.com |
 
 ## 📄 License
 
-MIT License — see the [LICENSE](./LICENSE) file for details.
+This repository is for documentation and community discussion only. The LingPick source code is proprietary.
 
 ---
 
-<p align="center">Made with 💚 for AI users everywhere</p>
+*Made with 💚 for AI users everywhere*
