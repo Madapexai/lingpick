@@ -1,9 +1,8 @@
-// LingPick landing page — motion & interactions
+// LingPick landing page — motion, language preference & accessibility
 // UI Skills: motion-performance (transform/opacity only) + accessibility (reduced-motion)
 (function () {
   "use strict";
 
-  // Respect users who prefer reduced motion
   var prefersReduced = window.matchMedia &&
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -22,6 +21,26 @@
     }, { rootMargin: "0px 0px -8% 0px", threshold: 0.12 });
     reveals.forEach(function (el) { io.observe(el); });
   }
+
+  // Language: remember the user's choice + locale-aware first visit
+  var KEY = "lingpick-lang";
+  var isZh = location.pathname.endsWith("zh.html");
+  var links = document.querySelectorAll(".lang-switch a");
+  links.forEach(function (a) {
+    a.addEventListener("click", function () {
+      try { localStorage.setItem(KEY, a.getAttribute("href").indexOf("zh") > -1 ? "zh" : "en"); } catch (e) {}
+    });
+  });
+  // First visit with no stored preference: if the browser prefers Chinese, show the Chinese page
+  try {
+    if (!localStorage.getItem(KEY) && !sessionStorage.getItem("lp-lang-redirect")) {
+      var navLang = (navigator.language || "").toLowerCase();
+      if (navLang.indexOf("zh") === 0 && !isZh) {
+        sessionStorage.setItem("lp-lang-redirect", "1");
+        location.href = "./zh.html";
+      }
+    }
+  } catch (e) {}
 
   // Close mobile nav on anchor click (keyboard + pointer friendly)
   document.querySelectorAll('a[href^="#"]').forEach(function (a) {

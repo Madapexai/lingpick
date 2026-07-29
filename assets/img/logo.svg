@@ -1,0 +1,23 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F1115"/>
+      <stop offset="1" stop-color="#060709"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="14" y1="13" x2="33" y2="35" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7CFFB2"/>
+      <stop offset="0.5" stop-color="#32F08C"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#32F08C" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#32F08C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="47" height="47" rx="11.5" stroke="#1F2937" stroke-opacity="0.6"/>
+  <path d="M15 13 L15 35 L33 35" stroke="url(#neon)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="33" cy="13" r="7" fill="url(#glow)"/>
+  <path d="M33 8.5 L37 13 L33 17.5 L29 13 Z" fill="url(#neon)"/>
+  <path d="M33 8.5 L37 13 L33 17.5 L29 13 Z" fill="#FFFFFF" opacity="0.15"/>
+</svg>
