@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LingPick — AI 工具决策引擎</title>
-  <meta name="description" content="LingPick 帮你 30 秒找到合适的 AI 工具。收录 14,000+ 工具，对比 400+ 模型价格，按成本、匹配度与速度给出排序推荐。" />
-  <meta name="keywords" content="AI 工具, AI 导航, 模型比价, Claude, GPT-4, Gemini, DeepSeek, AI Agent, LingPick" />
+  <title>LingPick — AI 工具选型引擎</title>
+  <meta name="description" content="LingPick 帮你 30 秒找到合适的 AI 工具。检索 14,000+ 工具、对比 400+ 模型价格，按成本、契合度与速度给出排名推荐。" />
+  <meta name="keywords" content="AI工具, AI导航, 模型价格, Claude, GPT-4, Gemini, DeepSeek, AI智能体, LingPick" />
   <meta name="author" content="Madapexai" />
   <meta name="color-scheme" content="light" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="LingPick" />
-  <meta property="og:title" content="LingPick — AI 工具决策引擎" />
-  <meta property="og:description" content="14,000+ AI 工具。30 秒。找到最合适你的那一个。" />
+  <meta property="og:title" content="LingPick — AI 工具选型引擎" />
+  <meta property="og:description" content="14,000+ AI 工具。30 秒。找到你的完美之选。告别盲目检索。" />
   <meta property="og:url" content="https://madapexai.github.io/lingpick/zh.html" />
-  <meta property="og:image" content="https://madapexai.github.io/lingpick/assets/img/logo.png" />
+  <meta property="og:image" content="https://madapexai.github.io/lingpick/assets/img/product-hero.png" />
   <meta property="og:locale" content="zh_CN" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LingPick — AI 工具决策引擎" />
-  <meta name="twitter:description" content="14,000+ AI 工具。30 秒。找到最合适你的那一个。" />
-  <meta name="twitter:image" content="https://madapexai.github.io/lingpick/assets/img/logo.png" />
+  <meta name="twitter:title" content="LingPick — AI 工具选型引擎" />
+  <meta name="twitter:description" content="14,000+ AI 工具。30 秒。找到你的完美之选。" />
+  <meta name="twitter:image" content="https://madapexai.github.io/lingpick/assets/img/product-hero.png" />
   <link rel="canonical" href="https://madapexai.github.io/lingpick/zh.html" />
   <link rel="icon" type="image/png" href="./assets/img/logo.png" />
 
@@ -29,281 +29,340 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">跳到正文</a>
+  <a class="skip-link" href="#main">跳转至正文</a>
 
+  <!-- 导航 -->
   <header class="nav">
     <div class="container nav-inner">
       <a class="brand" href="./zh.html" aria-label="LingPick 首页">
-        <img src="./assets/img/logo.png" alt="LingPick 标志" width="32" height="32" />
+        <img src="./assets/img/logo.png" alt="" width="32" height="32" aria-hidden="true" />
         Ling<b>Pick</b>
       </a>
       <nav class="nav-links" aria-label="主导航">
-        <a class="link" href="#how">原理</a>
-        <a class="link" href="#features">功能</a>
+        <a class="link" href="#showcase">产品实拍</a>
+        <a class="link" href="#how">工作原理</a>
+        <a class="link" href="#features">核心功能</a>
         <a class="link" href="#team">团队</a>
         <span class="lang-switch" role="group" aria-label="语言切换">
           <a href="./index.html">EN</a>
           <a href="./zh.html" class="active" aria-current="page">中文</a>
         </span>
-        <a class="btn btn-primary" href="https://madapexai.com" target="_blank" rel="noopener">免费试用</a>
+        <a class="btn btn-primary btn-sm" href="https://madapexai.com" target="_blank" rel="noopener">免费试用 →</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <!-- Hero -->
+
+    <!-- ===== 主视觉 ===== -->
     <section class="hero">
       <div class="container">
-        <span class="eyebrow reveal">AI 工具决策引擎</span>
-        <h1 class="reveal"><em>30 秒</em>，找到合适的 AI 工具。</h1>
-        <p class="lede reveal">LingPick 收录 14,000+ AI 工具、对比 400+ 模型价格，按成本、匹配度与速度给出 3 个推荐。不用开一堆标签页，不用做对比表，更不用乱花钱。</p>
-        <div class="hero-cta reveal">
-          <a class="btn btn-primary" href="https://madapexai.com" target="_blank" rel="noopener">打开 LingPick</a>
-          <a class="btn btn-ghost" href="https://github.com/Madapexai/lingpick" target="_blank" rel="noopener">GitHub 点星</a>
-        </div>
-        <div class="hero-meta reveal">
-          <span><span class="dot"></span> 已收录 14,475 个工具</span>
-          <span><span class="dot"></span> 12 种语言</span>
-          <span><span class="dot"></span> 实时价格</span>
+        <div class="hero-badge reveal"><span></span> 开源 · 免费使用</div>
+        <h1 class="reveal">用 <em>30 秒</em><br/>找到最适合你的 AI 工具</h1>
+        <p class="lede reveal">别再在无穷的导航站里大海捞针。告诉 LingPick 你想做什么——它检索 14,000+ 工具与 400+ 模型，按成本、契合度与速度，给你三个排名推荐。</p>
+
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary btn-lg" href="https://madapexai.com" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+            立即体验 LingPick
+          </a>
+          <a class="btn btn-ghost btn-lg" href="https://github.com/Madapexai/lingpick" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            在 GitHub 上 Star
+          </a>
         </div>
 
-        <div class="terminal reveal" role="img" aria-label="LingPick 推荐示例">
-          <div class="terminal-bar"><i></i><i></i><i></i><span class="title">lingpick — 推荐</span></div>
-          <div class="terminal-body">
-            <span class="u">你</span>:~$ lingpick "帮我做个产品介绍视频"<br/>
-            <span class="arrow">→</span> <span class="g1">Video Podcast Maker</span> &nbsp;— 免费<br/>
-            <span class="arrow">→</span> <span class="g2">海螺 AI 视频</span> &nbsp;— $4.99 / 月<br/>
-            <span class="arrow">→</span> <span class="g3">CogVideoX 2.0</span> &nbsp;— 开源<br/>
-            <span class="note">已按成本 · 匹配度 · 速度排序 — 0.3 秒</span>
-          </div>
+        <div class="hero-stats reveal">
+          <span><strong>14,475</strong> 个工具已收录</span>
+          <span class="sep"></span>
+          <span><strong>418</strong> 个模型在追踪</span>
+          <span class="sep"></span>
+          <span><strong>12</strong> 种语言</span>
         </div>
       </div>
     </section>
 
-    <!-- How it works -->
-    <section id="how" style="background:var(--bg-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+    <!-- ===== 产品实拍（真实截图）===== -->
+    <section id="showcase" class="showcase">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">眼见为实</span>
+          <h2>这就是 LingPick 的样子</h2>
+          <p>不是样机。以下都是真实产品的实拍截图。</p>
+        </div>
+        <div class="showcase-grid reveal">
+          <figure class="shot-card">
+            <div class="shot-frame">
+              <img src="./assets/img/product-hero.png" alt="LingPick 首页：Quick Match 搜索框与分类目录" loading="lazy" width="1280" height="900" />
+            </div>
+            <figcaption>
+              <span class="cap-label">首页</span>
+              输入你想做的事，点击 <strong>Quick Match</strong>，就这样简单。
+            </figcaption>
+          </figure>
+          <figure class="shot-card">
+            <div class="shot-frame">
+              <img src="./assets/img/product-results.png" alt="LingPick 结果页：Claude 为最佳匹配，ChatGPT 与 Jasper AI 为推荐工具" loading="lazy" width="1280" height="900" />
+            </div>
+            <figcaption>
+              <span class="cap-label">结果</span>
+              按成本、契合度、速度排序的推荐，并附匹配度评分。
+            </figcaption>
+          </figure>
+        </div>
+        <p class="showcase-note reveal">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          截图取自 <a href="https://madapexai.com" target="_blank" rel="noopener">madapexai.com</a> —— 无需注册，立即试用。
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== 工作原理 ===== -->
+    <section id="how" class="alt-bg">
       <div class="container">
         <div class="section-head reveal">
           <span class="eyebrow">工作原理</span>
           <h2>从一句话到三个推荐</h2>
-          <p>LingPick 把你想要做的事，变成一份可以直接上手的小清单。</p>
+          <p>LingPick 把你的朴素描述，变成一份可以直接行动的小清单——大约三十秒。</p>
         </div>
         <div class="pipeline reveal">
           <div class="pipe-node">
             <div class="ico" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>
             </div>
-            <h3>描述你的需求</h3>
-            <p>用任何语言，告诉它你想做什么。</p>
+            <h3>告诉我你的需求</h3>
+            <p>用任何语言写一句话——「做个科普视频」或「帮我写周报」。</p>
           </div>
           <div class="pipe-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
           <div class="pipe-node accent">
             <div class="ico" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
             </div>
             <h3>LingPick 引擎</h3>
-            <p>在 14,000+ 工具与 400+ 模型中做语义搜索与智能排序。</p>
+            <p>语义检索 14,000+ 工具，并按成本、契合度、速度智能排序。</p>
           </div>
           <div class="pipe-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
           <div class="pipe-node">
             <div class="ico" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
             </div>
-            <h3>3 个最佳推荐</h3>
-            <p>按成本、匹配度、速度排序，约 30 秒给出。</p>
+            <h3>你的前三推荐</h3>
+            <p>带匹配度评分、价格档位与直达链接的排名结果。</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Features -->
+    <!-- ===== 核心功能 ===== -->
     <section id="features">
       <div class="container">
         <div class="section-head reveal">
-          <span class="eyebrow">能做什么</span>
-          <h2>挑对工具，你需要的一切都在这里</h2>
-          <p>为想做正事、而不是想逛导航站的人而造。</p>
+          <span class="eyebrow">核心功能</span>
+          <h2>选对工具，你需要的一切</h2>
+          <p>为「想做事、不想逛目录」的人而生。</p>
         </div>
         <div class="features-grid">
           <article class="card reveal">
             <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
             <h3>语义搜索</h3>
-            <p>中文、英文、日文等多语言搜索。14,000+ 工具，按语义匹配。</p>
+            <p>支持中文、英文、日文等多语言。一万四千个工具，按「意思」而非关键词匹配。</p>
           </article>
           <article class="card reveal">
             <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4.5 13.5H11l-1 8.5 8.5-11.5H12l1-8.5z"/></svg></div>
-            <h3>快速匹配</h3>
-            <p>回答 5 个问题，得到 3 个推荐，按成本、匹配度、速度排序。</p>
+            <h3>Quick Match</h3>
+            <p>一个搜索框，三个排名推荐。没有表单、没有筛选、没有摩擦。</p>
           </article>
           <article class="card reveal">
             <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></div>
-            <h3>全量目录</h3>
-            <p>视频、图像、编程、写作、音乐、Agent、CLI、MCP，井井有条。</p>
+            <h3>完整目录</h3>
+            <p>应用、技能、MCP 服务、CLI 工具、插件、模型、解决方案——全部归类、随手可览。</p>
           </article>
           <article class="card reveal">
             <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 11 3.8A2 2 0 0 0 9.6 3H4v5.6a2 2 0 0 0 .8 1.4l9.6 9.6a2 2 0 0 0 2.8 0l3.6-3.6a2 2 0 0 0 0-2.6z"/><circle cx="7.5" cy="7.5" r="1.2" fill="currentColor"/></svg></div>
-            <h3>模型比价</h3>
-            <p>400+ 模型横向对比：GPT-4o、Claude、Gemini、Llama、DeepSeek。</p>
+            <h3>模型价格</h3>
+            <p>并排对比 400+ 模型：GPT-4o、Claude、Gemini、Llama、DeepSeek——附实时价格。</p>
           </article>
           <article class="card reveal">
             <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M8.5 6H14a2 2 0 0 1 2 2v2.5M8.5 18H14a2 2 0 0 0 2-2v-2.5"/></svg></div>
-            <h3>场景方案</h3>
-            <p>来自 Reddit、知乎、Hacker News 的真实工作流，附成本分析。</p>
+            <h3>真实工作流</h3>
+            <p>精选自 Reddit、知乎、Hacker News 的搭建方案——附每一套栈的成本拆解。</p>
           </article>
           <article class="card reveal">
             <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="16" height="11" rx="2"/><path d="M12 8V5M9 3h6"/></svg></div>
             <h3>LingBot</h3>
-            <p>按你的需求对话式推荐工具的助手。25 个关键词自动触发。</p>
+            <p>用自然语言推荐工具的 AI 助手。在 25+ 关键词上可被触发。</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- How it helps -->
-    <section style="background:var(--bg-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+    <!-- ===== 前后对比 ===== -->
+    <section class="alt-bg">
       <div class="container">
         <div class="section-head reveal">
-          <span class="eyebrow">怎么帮你</span>
-          <h2>从无从下手，到清晰选择</h2>
-          <p>同一件事，用 LingPick 前后的区别。</p>
+          <span class="eyebrow">使用前 vs 使用后</span>
+          <h2>从信息黑洞到清晰选择</h2>
+          <p>同一个任务，两种天差地别的体验。</p>
         </div>
         <div class="compare reveal">
           <div class="panel before">
-            <h3>之前 <span class="tag">老办法</span></h3>
+            <h3>使用前 <span class="tag tag-warn">老办法</span></h3>
             <ul>
-              <li><span class="x" aria-hidden="true">✕</span> 开着 50 个浏览器标签</li>
-              <li><span class="x" aria-hidden="true">✕</span> 做了 3 张对比表</li>
-              <li><span class="x" aria-hidden="true">✕</span> 花 2 小时找工具</li>
-              <li><span class="x" aria-hidden="true">✕</span> 为 $30/月 的工具多花钱</li>
+              <li><span class="x" aria-hidden="true">×</span> 开着 50 个浏览器标签页</li>
+              <li><span class="x" aria-hidden="true">×</span> 建了 3 张对比表格</li>
+              <li><span class="x" aria-hidden="true">×</span> 浪费 2 小时查资料</li>
+              <li><span class="x" aria-hidden="true">×</span> 为 $30/月 的工具过度付费</li>
             </ul>
           </div>
-          <div class="compare-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+          <div class="compare-vs" aria-hidden="true">VS</div>
           <div class="panel after">
-            <h3>之后 <span class="tag">用 LingPick</span></h3>
+            <h3>使用后 <span class="tag tag-good">用 LingPick</span></h3>
             <ul>
               <li><span class="check" aria-hidden="true">✓</span> 一个搜索框</li>
-              <li><span class="check" aria-hidden="true">✓</span> 3 个排序推荐</li>
-              <li><span class="check" aria-hidden="true">✓</span> 约 30 秒搞定</li>
-              <li><span class="check" aria-hidden="true">✓</span> 91.6% 工具有免费版</li>
+              <li><span class="check" aria-hidden="true">✓</span> 直接给出 3 个排名推荐</li>
+              <li><span class="check" aria-hidden="true">✓</span> 大约 30 秒</li>
+              <li><span class="check" aria-hidden="true">✓</span> 91.6% 的工具都有免费档</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Stats -->
+    <!-- ===== 数据 ===== -->
     <section>
       <div class="container">
         <div class="stats-band reveal">
-          <div class="stats-grid">
-            <div><div class="num">14,475</div><div class="cap">收录 AI 工具</div></div>
-            <div><div class="num">418</div><div class="cap">追踪模型</div></div>
-            <div><div class="num">46</div><div class="cap">监控厂商</div></div>
-            <div><div class="num">$0</div><div class="cap">最低输入价/百万 token</div></div>
+          <div class="stats-row">
+            <div class="stat"><span class="num">14,475</span><span class="label">已收录 AI 工具</span></div>
+            <div class="stat"><span class="num">418</span><span class="label">在追踪模型</span></div>
+            <div class="stat"><span class="num">46</span><span class="label">监控厂商</span></div>
+            <div class="stat"><span class="num">$0</span><span class="label">每百万 token 最低价</span></div>
           </div>
-          <div class="row2">
-            <div><div class="num">4,168</div><div class="cap">可搜索工具</div></div>
-            <div><div class="num">30</div><div class="cap">已收录聊天机器人</div></div>
-            <div><div class="num">32</div><div class="cap">已收录代码 Agent</div></div>
-            <div><div class="num">91.6%</div><div class="cap">提供免费方案</div></div>
+          <div class="stats-divider"></div>
+          <div class="stats-row stats-row-sm">
+            <div class="stat"><span class="num">4,168</span><span class="label">可完整检索</span></div>
+            <div class="stat"><span class="num">30</span><span class="label">已收录聊天机器人</span></div>
+            <div class="stat"><span class="num">32</span><span class="label">已收录代码智能体</span></div>
+            <div class="stat"><span class="num">91.6%</span><span class="label">提供免费档</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Examples -->
-    <section id="examples" style="background:var(--bg-soft);border-top:1px solid var(--line);">
+    <!-- ===== 示例 ===== -->
+    <section id="examples" class="alt-bg">
       <div class="container">
         <div class="section-head reveal">
-          <span class="eyebrow">试试搜索</span>
-          <h2>输入你想做的，找到对的工具。</h2>
+          <span class="eyebrow">试一试</span>
+          <h2>说出你的需求，得到合适的工具。</h2>
         </div>
         <div class="reveal">
           <table class="ex-table">
-            <thead><tr><th>你输入</th><th>LingPick 找到</th></tr></thead>
+            <thead><tr><th scope="col">你输入</th><th scope="col">LingPick 找到</th></tr></thead>
             <tbody>
-              <tr><td class="q">"做视频"</td><td class="a">AI 视频工具、AIGC 视频创作、CogVideoX</td></tr>
-              <tr><td class="q">"写代码"</td><td class="a">天工智码 SkyCode、码上飞、Kimi K3 for Coding</td></tr>
+              <tr><td class="q">"make video"</td><td class="a">Video Podcast Maker、Hailuo AI Video、CogVideoX</td></tr>
+              <tr><td class="q">"写代码"</td><td class="a">SkyCode、CodeFly、Kimi K3 for Coding</td></tr>
               <tr><td class="q">"做PPT"</td><td class="a">Dashi PPT、McKinsey PPT Design</td></tr>
-              <tr><td class="q">"AI绘画"</td><td class="a">创客贴 AI 画匠、秒绘 AI、绘蛙 AI</td></tr>
-              <tr><td class="q">"数据分析"</td><td class="a">研究数据分析工具集</td></tr>
-              <tr><td class="q">"make video"</td><td class="a">Video Podcast Maker、Hailuo AI Video</td></tr>
+              <tr><td class="q">"AI绘画"</td><td class="a">AI Painter、Miaohui AI、Huiwa AI</td></tr>
+              <tr><td class="q">"data analysis"</td><td class="a">Research Data Analysis 系列工具</td></tr>
+              <tr><td class="q">"coding assistant"</td><td class="a">cli-llm-coding、Live Coding in Forth</td></tr>
             </tbody>
           </table>
         </div>
         <div class="keywords reveal">
-          <p style="color:var(--muted);margin-bottom:10px;font-size:14px;">LingBot 在这些关键词下自动触发：</p>
+          <p class="kw-label">LingBot 在以下关键词上触发：</p>
           <span class="k">help</span><span class="k">support</span><span class="k">contact</span><span class="k">customer service</span><span class="k">反馈</span><span class="k">帮助</span><span class="k">售后</span><span class="k">complaint</span><span class="k">技术支持</span>
         </div>
       </div>
     </section>
 
-    <!-- Team -->
+    <!-- ===== 团队 ===== -->
     <section id="team">
       <div class="container">
         <div class="section-head reveal">
           <span class="eyebrow">团队</span>
-          <h2>每天在用的人，把它做出来</h2>
-          <p>LingPick 由一位主理人主导，几位 contributor 共同参与建设。</p>
+          <h2>由每天使用它的人打造</h2>
+          <p>一个小团队，专注于让 AI 工具发现变得毫不费力。</p>
         </div>
         <div class="team-grid reveal">
           <div class="member lead">
             <div class="avatar" aria-hidden="true">Y</div>
             <div class="name">yason</div>
             <div class="role">项目主理人</div>
-            <a class="gh" href="https://github.com/yason" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="gh" href="https://github.com/yason" target="_blank" rel="noopener noreferrer">@yason ↗</a>
           </div>
           <div class="member">
             <div class="avatar" aria-hidden="true">M</div>
             <div class="name">Mount</div>
             <div class="role">贡献者</div>
-            <a class="gh" href="https://github.com/Mount" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="gh" href="https://github.com/Mount" target="_blank" rel="noopener noreferrer">@Mount ↗</a>
           </div>
           <div class="member">
             <div class="avatar" aria-hidden="true">D</div>
             <div class="name">dblank</div>
             <div class="role">贡献者</div>
-            <a class="gh" href="https://github.com/dblank" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="gh" href="https://github.com/dblank" target="_blank" rel="noopener noreferrer">@dblank ↗</a>
           </div>
           <div class="member">
             <div class="avatar" aria-hidden="true">Y</div>
             <div class="name">yvonne</div>
             <div class="role">贡献者</div>
-            <a class="gh" href="https://github.com/yvonne" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="gh" href="https://github.com/yvonne" target="_blank" rel="noopener noreferrer">@yvonne ↗</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="cta">
+    <!-- ===== 行动召唤 ===== -->
+    <section class="cta-section">
       <div class="container">
-        <div class="cta-card reveal">
-          <h2>别再瞎找，直接选。</h2>
-          <p>别人花 2 小时，你 30 秒就能配齐自己的 AI 工具栈。</p>
-          <div class="hero-cta">
-            <a class="btn btn-primary" href="https://madapexai.com" target="_blank" rel="noopener">打开 LingPick</a>
-            <a class="btn btn-ghost" href="https://github.com/Madapexai/lingpick/discussions" target="_blank" rel="noopener">加入社区</a>
+        <div class="cta-box reveal">
+          <h2>别再瞎猜。开始挑选。</h2>
+          <p>加入那些用几秒而非数小时找到合适 AI 工具的人。</p>
+          <div class="cta-buttons">
+            <a class="btn btn-primary btn-lg" href="https://madapexai.com" target="_blank" rel="noopener">打开 LingPick →</a>
+            <a class="btn btn-ghost btn-lg" href="https://github.com/Madapexai/lingpick/discussions" target="_blank" rel="noopener">加入社区</a>
           </div>
         </div>
       </div>
     </section>
+
   </main>
 
+  <!-- 页脚 -->
   <footer class="footer">
     <div class="container">
-      <div class="top">
-        <a class="brand" href="./zh.html"><img src="./assets/img/logo.png" alt="LingPick 标志" width="28" height="28" /> Ling<b>Pick</b></a>
-        <div class="cols">
-          <div class="col"><h4>产品</h4><a href="https://madapexai.com" target="_blank" rel="noopener">官网</a><a href="#features">功能</a><a href="#how">工作原理</a></div>
-          <div class="col"><h4>社区</h4><a href="https://github.com/Madapexai/lingpick" target="_blank" rel="noopener">GitHub</a><a href="https://github.com/Madapexai/lingpick/discussions" target="_blank" rel="noopener">讨论区</a><a href="mailto:contact@madapexai.com">邮箱</a></div>
-          <div class="col"><h4>语言</h4><a href="./index.html">English</a><a href="./zh.html">中文</a></div>
+      <div class="footer-top">
+        <a class="brand" href="./zh.html"><img src="./assets/img/logo.png" alt="" width="28" height="28" aria-hidden="true" /> Ling<b>Pick</b></a>
+        <div class="footer-cols">
+          <div class="fcol">
+            <h4>产品</h4>
+            <a href="https://madapexai.com" target="_blank" rel="noopener">官网</a>
+            <a href="#showcase">产品实拍</a>
+            <a href="#features">核心功能</a>
+            <a href="#how">工作原理</a>
+          </div>
+          <div class="fcol">
+            <h4>社区</h4>
+            <a href="https://github.com/Madapexai/lingpick" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/Madapexai/lingpick/discussions" target="_blank" rel="noopener">讨论区</a>
+            <a href="mailto:contact@madapexai.com">联系我们</a>
+          </div>
+          <div class="fcol">
+            <h4>语言</h4>
+            <a href="./index.html">English</a>
+            <a href="./zh.html">中文</a>
+          </div>
         </div>
       </div>
-      <div class="rule"></div>
-      <div class="bottom"><span>为全世界的 AI 使用者用心打造。</span><span>&copy; 2026 Madapexai &middot; 源代码为专有软件</span></div>
+      <div class="footer-rule"></div>
+      <div class="footer-bottom">
+        <span>用心打造，献给每一位 AI 用户。</span>
+        <span>&copy; 2026 Madapexai</span>
+      </div>
     </div>
   </footer>
+
   <script src="./assets/js/main.js"></script>
 </body>
 </html>
