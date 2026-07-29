@@ -34,20 +34,26 @@
   <!-- 导航 -->
   <header class="nav">
     <div class="container nav-inner">
-      <a class="brand" href="./zh.html" aria-label="LingPick 首页">
+      <a class="brand" href="./zh.html" aria-label="灵选 首页">
         <img src="./assets/img/logo.svg" alt="" width="32" height="32" aria-hidden="true" />
-        Ling<b>Pick</b>
+        灵选
       </a>
       <nav class="nav-links" aria-label="主导航">
         <a class="link" href="#showcase">产品实拍</a>
         <a class="link" href="#how">工作原理</a>
         <a class="link" href="#features">核心功能</a>
         <a class="link" href="#team">团队</a>
-        <span class="lang-switch" role="group" aria-label="语言切换">
-          <svg class="globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/></svg>
-          <a href="./index.html">EN</a>
-          <a href="./zh.html" class="active" aria-current="page">中文</a>
-        </span>
+        <div class="lang-wrap">
+          <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="切换语言">
+            <svg class="globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/></svg>
+            <span class="label">简体中文</span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="lang-menu" role="menu">
+            <a href="./index.html" role="menuitem">English</a>
+            <a href="./zh.html" class="active" role="menuitem">简体中文 <span class="tick" aria-hidden="true"></span></a>
+          </div>
+        </div>
         <a class="btn btn-primary btn-sm" href="https://madapexai.com" target="_blank" rel="noopener">免费试用 →</a>
       </nav>
     </div>
@@ -334,7 +340,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-top">
-        <a class="brand" href="./zh.html"><img src="./assets/img/logo.svg" alt="" width="28" height="28" aria-hidden="true" /> Ling<b>Pick</b></a>
+        <a class="brand" href="./zh.html"><img src="./assets/img/logo.svg" alt="" width="28" height="28" aria-hidden="true" /> 灵选</a>
         <div class="footer-cols">
           <div class="fcol">
             <h4>产品</h4>

@@ -22,13 +22,28 @@
     reveals.forEach(function (el) { io.observe(el); });
   }
 
-  // Language: remember the user's choice + locale-aware first visit
+  // Language dropdown: toggle, remember choice, locale-aware first visit
   var KEY = "lingpick-lang";
   var isZh = location.pathname.endsWith("zh.html");
-  var links = document.querySelectorAll(".lang-switch a");
-  links.forEach(function (a) {
-    a.addEventListener("click", function () {
-      try { localStorage.setItem(KEY, a.getAttribute("href").indexOf("zh") > -1 ? "zh" : "en"); } catch (e) {}
+  document.querySelectorAll(".lang-wrap").forEach(function (w) {
+    var btn = w.querySelector(".lang-btn");
+    btn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var open = w.classList.toggle("open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    document.addEventListener("click", function (e) {
+      if (!w.contains(e.target)) {
+        w.classList.remove("open");
+        btn.setAttribute("aria-expanded", "false");
+      }
+    });
+    w.querySelectorAll(".lang-menu a").forEach(function (a) {
+      a.addEventListener("click", function () {
+        try { localStorage.setItem(KEY, a.getAttribute("href").indexOf("zh") > -1 ? "zh" : "en"); } catch (e2) {}
+        w.classList.remove("open");
+        btn.setAttribute("aria-expanded", "false");
+      });
     });
   });
   // First visit with no stored preference: if the browser prefers Chinese, show the Chinese page
