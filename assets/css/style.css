@@ -81,7 +81,7 @@ section { padding: 92px 0; }
   backdrop-filter: saturate(180%) blur(12px); border-bottom: 1px solid var(--line); }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 16px; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 19px;
-  color: var(--ink); letter-spacing: -.01em; }
+  color: var(--ink); letter-spacing: -.01em; flex-shrink: 0; }
 .brand img { width: 32px; height: 32px; border-radius: 9px; }
 .brand b { color: var(--accent); }
 .nav-links { display: flex; align-items: center; gap: 22px; }
@@ -89,7 +89,8 @@ section { padding: 92px 0; }
 .nav-links a.link:hover { color: var(--accent); }
 
 /* language switch — elegant dropdown */
-.lang-wrap { position: relative; display: inline-flex; }
+.lang-wrap { position: relative; display: inline-flex; flex-shrink: 0; }
+.lang-btn .label { font-weight: 700; letter-spacing: .02em; }
 .lang-btn { display: inline-flex; align-items: center; gap: 7px; height: 40px; padding: 0 14px;
   background: #fff; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2);
   font-family: var(--font); font-weight: 600; font-size: 14px; cursor: pointer;
