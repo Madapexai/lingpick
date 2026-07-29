@@ -46,6 +46,23 @@
       });
     });
   });
+
+  // Product showcase — gentle auto-scroll (pauses on interaction, off for reduced-motion)
+  var track = document.querySelector(".shot-track");
+  if (track && !prefersReduced) {
+    var step = function () {
+      if (track.scrollLeft + track.clientWidth >= track.scrollWidth - 4) {
+        track.scrollTo({ left: 0, behavior: "smooth" });
+      } else {
+        track.scrollBy({ left: track.clientWidth * 0.62, behavior: "smooth" });
+      }
+    };
+    var timer = setInterval(step, 3600);
+    ["mouseenter", "touchstart", "focusin", "wheel"].forEach(function (ev) {
+      track.addEventListener(ev, function () { clearInterval(timer); }, { passive: true });
+    });
+  }
+
   // First visit with no stored preference: if the browser prefers Chinese, show the Chinese page
   try {
     if (!localStorage.getItem(KEY) && !sessionStorage.getItem("lp-lang-redirect")) {
